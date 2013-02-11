@@ -11,11 +11,20 @@
     <artifactId>cucumber-reports</artifactId>
     <version>0.0.18</version>
     <packaging>hpi</packaging>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Cucumber+Reports+Plugin</url>
+
+    <developers>
+        <developer>
+            <id>rtyler</id>
+            <name>R. Tyler Croy</name>
+            <email>tyler@linux.com</email>
+        </developer>
+    </developers>
 
     <scm>
-      <connection>scm:git:git://github.com/masterthought/jenkins-cucumber-jvm-reports-plugin-java.git</connection>
-      <developerConnection>scm:git:git@github.com:masterthought/jenkins-cucumber-jvm-reports-plugin-java.git</developerConnection>
-      <url>http://github.com/masterthought/jenkins-cucumber-jvm-reports-plugin-java</url>
+        <connection>scm:git:git://github.com/jenkinsci/cucumber-reports-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/cucumber-reports-plugin.git</developerConnection>
+        <url>http://github.com/jenkinsci/cucumber-reports-plugin</url>
     </scm>
 
     <!-- get every artifact through repo.jenkins-ci.org, which proxies all the artifacts that we need -->
